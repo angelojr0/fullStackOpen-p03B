@@ -15,6 +15,7 @@ morgan.token("post", (req, res) => {
 app.use(morgan(" :method :url :post"));
 
 const PORT = process.env.PORT || 3001;
+console.log("Port", PORT);
 app.listen(PORT);
 
 let persons = [
