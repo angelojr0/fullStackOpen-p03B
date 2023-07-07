@@ -1,0 +1,1 @@
+*,:before,:after{padding:0;margin:0}#root{max-width:600px;margin:0 auto}.app{color:#313030}h2{background-color:azure;font-style:italic}li{background-color:#d3d3d3;border:1px solid black;list-style:none;display:grid;padding-left:20%;padding-right:50px;grid-template-columns:90% 10%}form{display:flex;justify-content:center;align-items:center}#filter{width:80%}

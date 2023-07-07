@@ -18,6 +18,8 @@ const PORT = process.env.PORT || 3001;
 console.log("Port", PORT);
 app.listen(PORT);
 
+app.use(express.static("build"));
+
 let persons = [
   {
     id: 1,
